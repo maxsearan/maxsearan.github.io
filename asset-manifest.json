@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/maxsearan.github.io/static/css/main.24ee8d24.chunk.css",
+    "main.js": "/maxsearan.github.io/static/js/main.0d291aa5.chunk.js",
+    "main.js.map": "/maxsearan.github.io/static/js/main.0d291aa5.chunk.js.map",
+    "runtime~main.js": "/maxsearan.github.io/static/js/runtime~main.d223c429.js",
+    "runtime~main.js.map": "/maxsearan.github.io/static/js/runtime~main.d223c429.js.map",
+    "static/js/2.2be67a01.chunk.js": "/maxsearan.github.io/static/js/2.2be67a01.chunk.js",
+    "static/js/2.2be67a01.chunk.js.map": "/maxsearan.github.io/static/js/2.2be67a01.chunk.js.map",
+    "index.html": "/maxsearan.github.io/index.html",
+    "precache-manifest.5f483a0adf2908c6a564a9888f3cef3f.js": "/maxsearan.github.io/precache-manifest.5f483a0adf2908c6a564a9888f3cef3f.js",
+    "service-worker.js": "/maxsearan.github.io/service-worker.js",
+    "static/css/main.24ee8d24.chunk.css.map": "/maxsearan.github.io/static/css/main.24ee8d24.chunk.css.map",
+    "static/media/14.jpg": "/maxsearan.github.io/static/media/14.f84a5de0.jpg",
+    "static/media/2.jpg": "/maxsearan.github.io/static/media/2.c5286e67.jpg",
+    "static/media/3.jpg": "/maxsearan.github.io/static/media/3.cb45475a.jpg",
+    "static/media/4.jpg": "/maxsearan.github.io/static/media/4.beb1f9d3.jpg",
+    "static/media/5.jpg": "/maxsearan.github.io/static/media/5.11b53520.jpg",
+    "static/media/6.jpg": "/maxsearan.github.io/static/media/6.5afe6ac7.jpg",
+    "static/media/7.jpg": "/maxsearan.github.io/static/media/7.8a22985a.jpg",
+    "static/media/8.jpg": "/maxsearan.github.io/static/media/8.9fa52b67.jpg",
+    "static/media/9.jpg": "/maxsearan.github.io/static/media/9.13aec87b.jpg",
+    "static/media/Symbol6.png": "/maxsearan.github.io/static/media/Symbol6.e6389df3.png",
+    "static/media/project1.gif": "/maxsearan.github.io/static/media/project1.1ba5ea04.gif",
+    "static/media/project2.gif": "/maxsearan.github.io/static/media/project2.871fd558.gif",
+    "static/media/project3-3-2.gif": "/maxsearan.github.io/static/media/project3-3-2.efd108bc.gif",
+    "static/media/project4-4.gif": "/maxsearan.github.io/static/media/project4-4.94af4307.gif",
+    "static/media/project5.gif": "/maxsearan.github.io/static/media/project5.e9e4b960.gif"
+  }
+}
