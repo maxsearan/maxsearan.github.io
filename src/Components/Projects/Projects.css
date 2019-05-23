@@ -1,0 +1,180 @@
+
+.project-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.project-content {
+    width: 90%;
+    margin-top: 100px ;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 30px;
+}
+
+.project-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:  40px;
+}
+
+.project-images {
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-title--main {
+    min-width: 10rem;
+    font-size: 32px;
+    line-height: -10;
+    letter-spacing: -0.022em;
+    color: #000;
+    margin: 180px 0;
+    max-width: 1200px;
+}
+
+.project-name {
+    font-size: 56px;
+    letter-spacing: -0.05em;
+    font-weight: 900;
+    white-space: pre-wrap;
+    margin-top: 0px;
+    margin-bottom: 10vh;
+}
+
+.project-description {
+    max-width: 600px;
+    font-size: 15px;
+    color: #909496;
+    padding: 0 20px;
+}
+
+
+.tech-title--main {
+    padding: 20px 20px;
+}
+
+.techLogos {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+
+.techLogos > .tech {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100px;
+    padding: 0 10px;
+}
+
+
+
+/* Project Styles */
+
+.project-content {
+    box-shadow: 0 4px 8px 0 rgba(91, 135, 229, 0.3), 0 6px 20px 0 rgba(91, 135, 229, 0.3);
+    -moz-box-shadow: 0 4px 8px 0 rgba(91, 135, 229, 0.3), 0 6px 20px 0 rgba(91, 135, 229, 0.3);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(91, 135, 229, 0.3), 0 6px 20px 0 rgba(91, 135, 229, 0.3);
+    border-radius: 20px;
+}
+
+.btn-lunch, a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.btn-launch {
+    background-color: transparent;
+    border: 3px solid darkorange;;
+    color: darkorange;;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: white; 
+    padding: .5rem 2rem;
+    text-decoration: none;
+} 
+
+.project-content:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 77, 0, 0.2), 0 6px 20px 0 rgba(255, 77, 0, 0.2);
+    -moz-box-shadow: 0 4px 8px 0 rgba(255, 77, 0, 0.2), 0 6px 20px 0 rgba(255, 77, 0, 0.2);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(255, 77, 0, 0.2), 0 6px 20px 0 rgba(255, 77, 0, 0.2);
+}
+
+
+@media only screen and (min-width: 751px) and (max-width: 850px) {
+    
+    .project-content {
+        margin: 50px 0;
+    }
+
+    .project-images {
+        visibility: hidden;
+    }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    .project-content {
+        width: 100%;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .project-info {
+        display: block;
+        padding: 30px;
+        text-align: center;
+
+    }
+
+    .project-images {
+        border-top-right-radius: 0; 
+        border-bottom-right-radius: 20px; 
+        border-bottom-left-radius: 20px;
+    }
+
+  
+
+    .project-description {
+        margin: 30px 0;
+        padding: 0;
+    }
+
+.btn-launch , .tech-title--main {
+    padding: 0;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 719px) {
+    .project-title--main {
+        font-size: 24px;
+        line-height: 35px;
+        margin-left: -2px;
+        letter-spacing: -0.7px;
+
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        -webkit-hyphens: none;
+        hyphens: none;
+    }
+
+    .techLogos > .tech {
+        margin: 5px;
+        padding: 0;
+        display: flex;
+        width: 70px;
+        
+    }
+} 
